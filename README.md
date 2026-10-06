@@ -90,7 +90,7 @@ bounces, crash recovery, and no re-send after a connection drops mid-message.
 |---|---|
 | Email campaigns, Unibox, analytics | Working |
 | Vapi call sync and analytics | Working |
-| Social publishing (X, Facebook, Instagram, TikTok) | Working; Instagram live in production |
+| Social publishing (X, Facebook, Instagram, TikTok) | Working |
 | Email finder and verifier | Pipeline built and covered by tests, not yet in use. Mailbox checks need outbound port 25, which home ISPs block. Two paths are wired: a pay-per-lookup provider switch, or a small self-hosted probe agent on a VPS (next) |
 | Next | Auto-optimize A/Z by reply rate, triggers between channels (e.g. Interested → call task), start a Vapi call from a lead |
 
